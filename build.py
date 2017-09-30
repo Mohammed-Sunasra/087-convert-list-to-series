@@ -2,6 +2,6 @@ import pandas as pd
 
 
 def solution(array):
-    """
-    Enter your code here
-    """
+    return pd.Series(array)
+
+print solution([2, 4, 6, 8, 10])
